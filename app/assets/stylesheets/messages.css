@@ -60,6 +60,28 @@
   padding: 0 40px;
 }
 
+.chat-header-room {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-room-name {
+  color: #333;
+  font-size: 24px;
+  /* margin: 36px 0 0 40px; */
+}
+
+.chat-exit {
+}
+
+.chat-exit a {
+  color: darkred;
+  padding: 20px;
+  border: 1px solid darkred;
+
+}
+
 .messages {
   background-color: #fafafa;
   height: calc(100vh - 100px - 90px);
